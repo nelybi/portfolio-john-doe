@@ -1,0 +1,32 @@
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero h2 {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 2rem;
+    height: auto;
+  }
+  @media (max-width: 768px) {
+    .about-img {
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero h2 {
+    font-size: 1.2rem;
+  }
+
+  .hero button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+}

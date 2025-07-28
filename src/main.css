@@ -1,0 +1,53 @@
+/* === STYLES GLOBAUX === */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* barre bleue réutilisable */
+.barre-bleue {
+  width: 100px;
+  height: 4px;
+  background-color: #0d6efd;
+  margin: 0 auto;
+}
+
+/* === RESPONSIVE MOBILE === */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .hero h2 {
+    font-size: 1.1rem;
+  }
+  .service-card {
+    margin-bottom: 1.5rem;
+  }
+  .btn {
+    width: 100%;
+  }
+}
+
+/* === RESPONSIVE TABLETTE === */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .icon-service {
+    font-size: 2.5rem;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  }
+
+  form label,
+  form input,
+  form textarea {
+    font-size: 1rem;
+  }
+
+  .accordion-button {
+    font-size: 1.1rem;
+  }
+}
